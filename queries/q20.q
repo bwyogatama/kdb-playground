@@ -19,15 +19,15 @@
                 p_name like 'forest%'
             )
             and ps_availqty > (
-            select
-                sum(l_quantity) * 0.5
-            from
-                lineitem
-            where
-                l_partkey = ps_partkey
-                and l_suppkey = ps_suppkey
-                and l_shipdate >= 19940101
-                and l_shipdate <= 19941231
+                select
+                    sum(l_quantity) * 0.5
+                from
+                    lineitem
+                where
+                    l_partkey = ps_partkey
+                    and l_suppkey = ps_suppkey
+                    and l_shipdate >= 19940101
+                    and l_shipdate <= 19941231
             )
         )
         and s_nationkey = n_nationkey

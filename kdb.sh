@@ -13,6 +13,15 @@ ln -s /home/ubuntu/new-crystal/tpch_dataset_creator/dbgen/s1/partsupp.tbl .
 ln -s /home/ubuntu/new-crystal/tpch_dataset_creator/dbgen/s1/region.tbl .
 ln -s /home/ubuntu/new-crystal/tpch_dataset_creator/dbgen/s1/nation.tbl .
 
+ln -s /home/ubuntu/dbgen/s10/lineitem.tbl .
+ln -s /home/ubuntu/dbgen/s10/orders.tbl .
+ln -s /home/ubuntu/dbgen/s10/part.tbl .
+ln -s /home/ubuntu/dbgen/s10/customer.tbl .
+ln -s /home/ubuntu/dbgen/s10/supplier.tbl .
+ln -s /home/ubuntu/dbgen/s10/partsupp.tbl .
+ln -s /home/ubuntu/dbgen/s10/region.tbl .
+ln -s /home/ubuntu/dbgen/s10/nation.tbl .
+
 ./l64/q -s 8
 
 # loading data and save to memory
