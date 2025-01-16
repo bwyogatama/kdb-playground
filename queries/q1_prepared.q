@@ -10,5 +10,5 @@ b:.s.sq["select l_returnflag, l_linestatus, sum(l_quantity)
 	where l_shipdate <= $1 
 	group by l_returnflag, l_linestatus 
 	order by l_returnflag, l_linestatus;"](0n);
-\t r1:.s.sx[b](enlist 19980902)
-\t r2:.s.sx[b](enlist 19980902)
+\t r1:.s.sx[b](enlist 19940902)
+\t r2:.s.sx[b](enlist 19940902)

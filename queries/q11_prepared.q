@@ -1,4 +1,4 @@
-\t s)select
+b:.s.sq["select
         *
     from (
         select
@@ -11,7 +11,7 @@
         where
             ps_suppkey = s_suppkey
             and s_nationkey = n_nationkey
-            and n_nationkey = 7
+            and n_nationkey = $1
         group by
             ps_partkey
             ) as inner_query
@@ -26,6 +26,8 @@
         where
             ps_suppkey = s_suppkey
             and s_nationkey = n_nationkey
-            and n_nationkey = 7
+            and n_nationkey = $1
         )
-    limit 1;
+    limit 1;"](0n)
+\t r1:.s.sx[b](enlist 7)
+\t r1:.s.sx[b](enlist 7)

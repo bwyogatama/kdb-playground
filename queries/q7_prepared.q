@@ -31,10 +31,6 @@ b:.s.sq["select
     group by
         supp_nation,
         cust_nation,
-        l_year
-    order by
-        supp_nation,
-        cust_nation,
         l_year;"](0n;0n;0n;0n);
 \t r1:.s.sx[b](6;7;19950101;19961231)
 \t r2:.s.sx[b](6;7;19950101;19961231)

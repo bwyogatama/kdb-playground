@@ -33,7 +33,4 @@
         and s_nationkey = n_nationkey
         and n_nationkey = 20
     group by
-        s_name
-    order by
-        numwait desc,
         s_name;
