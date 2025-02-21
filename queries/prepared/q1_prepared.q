@@ -12,3 +12,5 @@ b:.s.sq["select l_returnflag, l_linestatus, sum(l_quantity)
 	order by l_returnflag, l_linestatus;"](0n);
 \t r1:.s.sx[b](enlist 19940902)
 \t r2:.s.sx[b](enlist 19940902)
+\t r2:.s.sx[b](enlist 19940902)
+\t r2:.s.sx[b](enlist 19940902)

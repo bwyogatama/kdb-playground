@@ -30,3 +30,5 @@ c:.s.sq["select
             );"](0n)
 \t r2:.s.sx[c](enlist 0)
 \t r2:.s.sx[c](enlist 0)
+\t r2:.s.sx[c](enlist 0)
+\t r2:.s.sx[c](enlist 0)

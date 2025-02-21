@@ -41,3 +41,5 @@ b:.s.sq["select
         o_totalprice;"](0n)
 \t r3:.s.sx[b](enlist 0)
 \t r3:.s.sx[b](enlist 0)
+\t r3:.s.sx[b](enlist 0)
+\t r3:.s.sx[b](enlist 0)

@@ -31,3 +31,5 @@ b:.s.sq["select
     limit 1;"](0n)
 \t r1:.s.sx[b](enlist 7)
 \t r1:.s.sx[b](enlist 7)
+\t r1:.s.sx[b](enlist 7)
+\t r1:.s.sx[b](enlist 7)

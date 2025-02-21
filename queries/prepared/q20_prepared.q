@@ -36,5 +36,7 @@ b: .s.sq["select
         s_name;"](0n)
 \t r1:.s.sx[b](enlist 3)
 \t r2:.s.sx[b](enlist 3)
+\t r1:.s.sx[b](enlist 3)
+\t r2:.s.sx[b](enlist 3)
 
 

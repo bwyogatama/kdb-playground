@@ -28,3 +28,5 @@ b:.s.sq["select
             o_year"](0n)
 \t r1:.s.sx[b](enlist 0)
 \t r1:.s.sx[b](enlist 0)
+\t r1:.s.sx[b](enlist 0)
+\t r1:.s.sx[b](enlist 0)

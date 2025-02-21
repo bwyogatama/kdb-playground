@@ -34,3 +34,5 @@ b:.s.sq["select
         cntrycode;"](0n);
 \t r1:.s.sx[b](enlist 0.00)
 \t r2:.s.sx[b](enlist 0.00)
+\t r1:.s.sx[b](enlist 0.00)
+\t r2:.s.sx[b](enlist 0.00)

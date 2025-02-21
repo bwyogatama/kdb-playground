@@ -46,3 +46,5 @@ b: .s.sq["select
 
 \t r2:.s.sx[b](15;0;`EUROPE)
 \t r2:.s.sx[b](15;0;`EUROPE)
+\t r2:.s.sx[b](15;0;`EUROPE)
+\t r2:.s.sx[b](15;0;`EUROPE)

@@ -22,3 +22,5 @@ b:.s.sq["select
             and l.l_quantity < aq.avg_quantity;"](0n;0n)
 \t r2:.s.sx[b](23;17)
 \t r2:.s.sx[b](23;17)
+\t r2:.s.sx[b](23;17)
+\t r2:.s.sx[b](23;17)
